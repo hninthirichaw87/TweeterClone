@@ -1,2 +1,2 @@
-pyrebase4 == 4.7.1
-streamlit == 1.27.2
+pyrebase4 >= 4.7.1
+streamlit >= 1.27.2
