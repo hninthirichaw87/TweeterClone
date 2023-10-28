@@ -1,4 +1,2 @@
 Pyrebase4==4.7.1
 streamlit==1.27.2
-firebase_admin
-google-cloud-firestore
