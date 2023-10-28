@@ -3,19 +3,7 @@ import pyrebase
 from datetime import datetime
 
 #configuration key
-firebaseConfig = {
-  "apiKey": "AIzaSyBRWmAyFNh71lagrb4TkbU-lmCXULwkXOQ",
-  "authDomain": "fir-stapp-8978b.firebaseapp.com",
-  "databaseURL": "https://fir-stapp-8978b-default-rtdb.europe-west1.firebasedatabase.app/",
-  "storageBucket": "fir-stapp-8978b.appspot.com",
-  "messagingSenderId": "449510012162",
-  "appId": "1:449510012162:web:c41d2c63a6e65b8211fe1b",
-  "measurementId": "G-T7TFCT7YR2",
-  "serviceAccount" : "./key.json"
-
-
-}
-
+firebaseConfig = st.secrets.dbcredentials
 #firebase authentication
 
 firebase = pyrebase.initialize_app(firebaseConfig)
