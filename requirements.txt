@@ -1,2 +1,2 @@
-pyrebase4
+Pyrebase4
 streamlit
